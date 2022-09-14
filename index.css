@@ -1,0 +1,71 @@
+body{
+  background-color: white;
+  transition: background-color 0.7s;
+}
+
+.kalimat{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  display: flex;
+  justify-content: center;
+  margin-top: 200px;
+  
+}
+
+.footer{
+  color: black;
+  text-align: center;
+}
+.footer-malem {
+  color: white;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  
+}
+.textt{
+  color: white;
+}
+
+.mode{
+  background-color: #da8632;
+  width: 200px;
+  height: 100px;
+  border-radius: 50px;
+  border: 5px solid black;
+  box-sizing: border-box;
+  margin: auto;
+  transition: border 0.7s,background-color 0.7s;
+}
+
+.click {
+  width: 90px;
+  height: 90px;
+  box-sizing:content-box;
+  border-radius: 50%;
+  margin: 0px 5px;
+  background-color: white;
+  transition: margin 0.8s;
+  cursor: pointer;
+}
+/**
+@keyframes mymove {
+  100% {margin-top: 0px;}
+  50% {margin-top: 200px;}
+}
+**/
+.mode-malem{
+  background-color: rgb(50, 50, 121);
+  border: 5px solid white;
+  transition: border 0.7s,background-color 0.7s;
+}
+.on {
+  margin: 0px 100px;
+  transition:  margin 0.8s;
+}
+
+.malam{
+  background-color: black;
+  transition: background-color 0.7s;
+}
